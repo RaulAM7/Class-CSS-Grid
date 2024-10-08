@@ -1,0 +1,23 @@
+
+.container1 {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.items1 {
+    background-color: grey;
+}
+
+.container2 {
+    display: grid;
+    grid-template-rows: 25px 25px 50px 75px;
+    width: 800px;
+    height: 100%;
+}
+
+.items2 {
+    background-color: red;
+    border: 2px solid gray;
+}
