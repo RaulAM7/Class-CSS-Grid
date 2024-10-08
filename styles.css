@@ -77,8 +77,38 @@
 
 
 
-#container7 {
+.container7 {
+    width: 100%;
     display: grid;
-    grid-template-columns: ;
+    grid-template-columns: repeat(3 , minmax(50px, 1fr));
     border: 2px solid blue;
+}
+
+.container7-columns {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.container8 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    border: 1px solid black;
+}
+
+.container8-columns {
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.container9 {
+    width: 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    border: 1px solid red;
+}
+
+.container9-columns {
+    background-color: rgb(115, 223, 115);
+    border: 1px solid black;
 }
