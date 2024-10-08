@@ -47,3 +47,38 @@
 #items4Special{
     grid-row: 1 / 3
 }
+
+.container5 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 4fr;
+    border: 3px solid green
+}
+
+.items5 {
+    background-color: rgb(179, 179, 179);
+    border: 1px solid black;
+}
+
+#items5Special {
+    background-color: aqua;
+    color: white;
+}
+
+.container6 {
+    height: 500px;
+    display: grid;
+    grid-template-rows: repeat(7, 2fr);
+    border: 2px solid aqua;
+}
+
+.items6 {
+    border: 1px solid red;;
+}
+
+
+
+#container7 {
+    display: grid;
+    grid-template-columns: ;
+    border: 2px solid blue;
+}
