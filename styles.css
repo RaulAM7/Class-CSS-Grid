@@ -179,3 +179,28 @@
     background-color: lightyellow;
     border: yellow;
 }
+
+.container12 {
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 5%;
+    border: 1px dotted black;
+}
+
+.container12 div {
+    border: 1px solid black; 
+}
+
+
+.container13 {
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5%;
+    border: 1px dotted black;
+}
+
+.container13 div {
+    border: 1px solid black;
+}
