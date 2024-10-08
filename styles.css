@@ -112,3 +112,70 @@
     background-color: rgb(115, 223, 115);
     border: 1px solid black;
 }
+
+.container10 {
+    display: grid;
+    grid-template-areas: "header header header sidebar"
+                        "main main main sidebar"
+                        "footer footer footer footer";
+    border: 1px solid black;
+}
+
+.container10-header {
+    grid-area: header;
+    border: 1px solid blue;
+        background: lightblue;
+        height: 30px;
+}
+.container10-main {
+    grid-area: main;
+    border: 1px solid red;
+    height: 100px;
+    background: lightpink;
+}
+.container10-sidebar {
+    grid-area: sidebar;
+    border: 1px solid green;
+    background: lightgreen;
+
+}
+.container10-footer {
+    grid-area: footer;
+    border: 1px solid orange;
+    background: khaki;
+}
+
+.container11 {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 100px;
+    grid-template-rows: 25px 25px 50px;
+    grid-template-areas: "a a a b"
+                        "a a a b"
+                        "c c d b";
+}
+
+
+.container11 div {
+    border: 1px solid black;
+}
+
+.container11-item0 {
+    grid-area: a;
+    background-color: lightcoral;
+    border: 1px solid red; 
+}
+.container11-item1 {
+    grid-area: b;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+.container11-item2 {
+    grid-area: c;
+    background-color: lightgreen;
+    border: 1px solid green
+}
+.container11-item3 {
+    grid-area: d;
+    background-color: lightyellow;
+    border: yellow;
+}
